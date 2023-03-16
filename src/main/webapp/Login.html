@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+   
+
+form {
+  max-width: 2000px;
+	margin: 10px auto;
+	padding:  100px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+body{
+	background-color: skyblue;
+}
+
+label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+button[type=submit] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+button[type=submit]:hover {
+  background-color: #3e8e41;
+}
+
+label input[type=checkbox] {
+  margin-top: 10px;
+  margin-right: 5px;
+}
+h2{
+	text-align:left;
+}
+    </style>
+  </head>
+  <body>
+    <h2><u> <br><br>Please Login here:</u></h2>
+      <form action="Login" method="post">
+        <h1>Login</h1>
+        <label for="username"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="username" required>
+
+        <label for="password"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="password" required>
+
+        <button type="submit">Login</button>
+      </form>
+ 
+  </body>
+</html>
